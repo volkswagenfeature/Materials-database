@@ -1,0 +1,4 @@
+- Make mat_definitions.py run in its own thread so that it can be used alongside ipython and jupyter
+- Set up a system for running multiple requests sessions proxied through multiple TOR endpoints, for maximum concurrency.
+- Scheduler for the above.
+- When batch_page_request receives a list of sessions, instead of just one single session, it should quene up batch_size pages for each session.
